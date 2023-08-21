@@ -1,0 +1,82 @@
+.selected{
+    background-color: yellow;
+}
+
+.tempReserv{
+    background-color: orange;
+}
+
+.permReserv{
+    background-color: red;
+}
+
+button{
+    width: 40px;
+    height:40px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 3px;
+    box-shadow: 1px 1px 1px rgb(75, 75, 75);
+}
+
+.stageLabel{
+    display: flex;
+    height: 50px;
+    width: 600px;
+    background-color: rgb(65, 208, 255);
+    color: rgb(23, 23, 53);
+    font-size: 2rem;
+    justify-content: center;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.countLabel ,.sumLabel{
+    background-color: rgb(98, 145, 148);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10px;
+}
+.topMenu{
+    display: flex;
+    justify-content: center;
+}
+.sectionContainer{
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: auto;
+}
+.sectionA{
+    /* background-color: blue; */
+    position:absolute;
+    width: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.sectionB{
+    /* background-color: blueviolet; */
+    position: relative;
+    left: -220px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.sectionC{
+    /* background-color: chartreuse; */
+    position: relative;
+    right: -220px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.sectionD{
+    /* background-color: darkgoldenrod; */
+    position: absolute;
+    width: 600px;
+    top: 400px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
